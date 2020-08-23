@@ -1,14 +1,58 @@
-.card {
+.App {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .App-logo {
+    height: 15vmin;
+  }
+  .card{
     display: inline-block;
     text-align: center;
     width: 3em;
-    font-size: 2em;
+    font-size: 2.5em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
     user-select: none;
-   }
-   
-   .activeCard {
-       color: rgb(4, 255, 117);
-       background: rgb(1, 20, 18);
-   }
+  
+  }
+  .card:hover{
+    background-color:rgb(50, 226, 27);
+    color: blueviolet;
+  
+  }
+  
+  .activeCard{
+    color: rgb(230, 192, 27);
+    background: blue;
+  }
+  .button1 {
+    background-color: rgb(129, 239, 247); 
+    font-size: 60px;
+    color: black; 
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .button1:hover {
+    background-color:rgb(194, 12, 12);
+    color: rgb(122, 228, 241);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(225, 238, 44);
+  }
+  
+  .App-link {
+    color: #a7d309;
+  }
