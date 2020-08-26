@@ -10,7 +10,7 @@ import WordCard from './WordCard';
 const word = "Hello"
 var wordList = ["Hello","Welcome","Freedom","Robot","Coe","PSU"]
 
-var num  = Math.floor((Math.random()* 4));
+var num  = Math.floor((Math.random()* 6));
 class App extends Component {
 
   render() {
